@@ -13,27 +13,40 @@
 <body>
 
     <header>
-        <nav>
-            <a href="" id="principal"> <img src="imagenes/Logo.png" alt="Logo Turtle"></a>
-            <ul>
-                <li><a href="">Inicio</a></li>
-                <li><a href="">Historia</a></li>
-                <li><a href="">Aventuras</a></li>
-                <li><a href="">Información</a>
+        <nav class="menu">
+            <a href="" id="princiapl"><img class="logo" src="Imagenes/Logo.png" alt="Turtle logo"> </a>
 
-                    <div>
+            <ul class="elements">
+                <li><a href="#principal"> Inicio </a></li>
+                <li><a href="#historia">Historia</a></li>
+                <li><a href="#aventuras">Aventuras</a></li>
+                <li>
+                    <a href="#informacion">Información </a>
+                    <div class="submenu">
                         <ul>
-                            <li><a href="">Comida</a></li>
-                            <li><a href="">Cuidados</a></li>
-                            <li><a href="">Crecimiento</a></li>
-                            <li><a href="">Pecera</a></li>
-                            <li><a href="">Otros datos</a></li>
+                            <li><a class="submenu-item" href="#comida">Comida</a></li>
+                            <li><a class="submenu-item" href="#cuidados">Cuidados</a></li>
+                            <li><a class="submenu-item" href="#crecimiento">Crecimiento</a></li>
+                            <li><a class="submenu-item" href="#pecera">Pecera</a></li>
+                            <li><a class="submenu-item" href="#otros">Otros datos</a></li>
                         </ul>
                     </div>
                 </li>
+                <li><a href="#contacto">Contacto</a></li>
             </ul>
-            <li><a href="">Contacto</a></li>
         </nav>
+
+        <div class="cabecera" id="principal">
+            <img class="imagen" src="imagenes/principal.png" alt="">
+            <div class="principal-text">
+                <h1> Tortugas</h1>
+                <br>
+                <p class="parrafo1"> Aprenderas a cómo cuidar a tus tortugas </p>
+            </div>
+        </div>
+
+        </div>
+
     </header>
 
 </body>
