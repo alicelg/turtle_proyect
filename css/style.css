@@ -368,3 +368,28 @@ h6 {
 .aside img {
     width: 20px;
 }
+
+/* FOOTER */
+
+footer {
+    width: 100%;
+    background-color: black;
+    height: 100px;
+}
+
+.copy {
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    width: auto;
+}
+
+.simbolos {
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+}
+
+.icono {
+    margin: 0px 10px;
+}
