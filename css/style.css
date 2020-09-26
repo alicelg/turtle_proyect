@@ -19,16 +19,19 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 1000;
+    z-index: 1000; 
 }
 
 .menu .logo, .menu .elements, .menu .elements li {
     display: inline-block;
+    
 }
 
 .menu .logo {
     width: 60px;
 }
+
+
 
 a {
     color: white;
@@ -50,6 +53,7 @@ a {
 a:hover {
     color: green;
 }
+
 
 .menu .elements {
     display: flex;
@@ -85,6 +89,7 @@ a:hover {
     height: 900px;
 }
 
+
 .cabecera {
     position: relative;
 }
@@ -95,6 +100,7 @@ a:hover {
     top: 198px;
     left: 50%;
     transform: translateX(-50%);
+
 }
 
 h1 {
@@ -104,6 +110,7 @@ h1 {
     animation-name: titulo;
     animation-duration: 5s;
     animation-iteration-count: infinite;
+
 }
 
 .parrafo1 {
@@ -111,41 +118,29 @@ h1 {
     text-align: center;
 }
 
-@keyframes titulo {
-    0% {
-        color: rgb(2, 70, 36);
-    }
-    20% {
-        color: rgb(6, 141, 13);
-    }
-    40% {
-        color: rgb(7, 181, 106);
-    }
-    60% {
-        color: darkgreen;
-    }
-    80% {
-        color: rgb(51, 181, 58);
-    }
-    80% {
-        color: teal;
-    }
-    100% {
-        color: rgb(13, 148, 139);
-    }
-}
 
-.fondo {
+@keyframes titulo {
+0% {color: rgb(2, 70, 36);}
+20% {color: rgb(6, 141, 13);}
+40% {color: rgb(7, 181, 106);}
+60% {color: darkgreen;}
+80% {color: rgb(51, 181, 58);}
+80% {color: teal;}
+100% {color: rgb(13, 148, 139);}}  
+
+.fondo{
     background-color: rgba(238, 238, 238, 0.714);
 }
-
 .historia {
     text-align: center;
     padding-top: 80px;
+   
 }
 
-.container {
+
+.container{
     margin: 0px;
+    
 }
 
 .parrafo2 {
@@ -158,24 +153,26 @@ h1 {
 }
 
 h2 {
-    color: green;
+    color:green;
     font-weight: lighter;
     font-size: 30px;
     text-align: center;
     /* margin: 70px 10px 0 10px; */
 }
 
-hr {
+hr{
     width: 360px;
     border-color: green;
     margin-bottom: 10px;
 }
+
 
 .mascotas {
     text-align: center;
     margin: 0 auto;
     margin-bottom: 30px;
     margin-top: 20px;
+   
 }
 
 .tortugas {
@@ -185,32 +182,38 @@ hr {
     display: inline-block;
 }
 
-h4 {
+h4 { 
     font-weight: bold;
     font-style: italic;
     color: rgb(13, 153, 118);
     font-size: 20px;
-    margin: 8px;
+    margin: 8px; 
     margin-bottom: 10px;
-    text-align: center;
+    text-align: center;  
 }
 
-.tortugas img {
+.tortugas img{
     border-radius: 100%;
     margin-bottom: 32px;
+   
 }
 
+
+
 .tortugas .descripcion {
+   
     text-align: center;
     font-style: italic;
     color: darkcyan;
     margin-bottom: 10px;
+   
 }
 
 .tortugas .info {
     text-align: center;
     color: darkgreen;
     font-size: 15px;
+
 }
 
 .linea {
@@ -222,14 +225,16 @@ h4 {
 .arriba {
     background-color: black;
     width: 100%;
-    padding: 60px;
+    padding: 60px ;
     padding-top: 65px;
+
+    
 }
 
 h3 {
     text-align: center;
     color: white;
-    font-size: 35px;
+    font-size: 35px ;
 }
 
 /* SECCION DE IMAGEN Y TEXTO */
@@ -239,6 +244,7 @@ h3 {
     width: 100%;
     height: 500px;
     display: block;
+    
 }
 
 .inter1 {
@@ -248,21 +254,28 @@ h3 {
     display: block;
 }
 
-.inter2 {
+.inter2{
     height: auto;
     margin: 0px 300px;
     position: relative;
 }
+
 
 .inter2 img {
     position: absolute;
     display: inline-block;
     width: 400px;
     height: auto;
-    margin: 50px 20px;
+    margin: 50px 20px ;
+   
 }
 
+
+
+
+
 .parrafo3 {
+
     position: relative;
     display: inline-block;
     width: 400px;
@@ -274,6 +287,7 @@ h3 {
 }
 
 .parrafo4 {
+
     position: relative;
     display: inline-block;
     width: 400px;
@@ -295,7 +309,7 @@ h5 {
 input {
     width: 500px;
     height: 50px;
-    border-bottom: green solid 2px;
+    border-bottom: green solid 2px ;
     border-top: none;
     border-left: none;
     border-right: none;
@@ -305,6 +319,7 @@ input {
 
 input:hover {
     color: rgb(15, 103, 104);
+    
 }
 
 textarea {
@@ -313,7 +328,7 @@ textarea {
     border: green solid 2px;
 }
 
-.boton {
+.boton { 
     border: none;
     background-color: green;
     color: rgb(255, 255, 255);
@@ -332,53 +347,60 @@ textarea {
     margin-bottom: 40px;
     margin-left: 350px;
     margin-top: 20px;
+    
 }
 
-form {
+form { 
     display: inline-block;
     width: 500px;
     height: auto;
     font-size: 30px;
+
 }
 
 .enlace {
-    color: black;
-    font-style: italic;
+    color:black;
+    font-style:italic;
 }
 
-.enlace:hover {
-    color: green
+.enlace:hover{
+  color: green
 }
+
 
 aside {
     display: inline-block;
     margin: 21px 40px;
+
+    
+
 }
 
 h6 {
     font-weight: bold;
     color: rgb(133, 208, 58);
     font-size: 20px;
+  
 }
-
 /* .aside {
     margin-left: 100px;
 } */
-
 .aside p {
     margin-left: 5px;
-}
 
-.aside img {
+}
+.aside img{
     width: 20px;
 }
 
-/* FOOTER */
 
+
+/* FOOTER */
 footer {
     width: 100%;
     background-color: black;
     height: 100px;
+    
 }
 
 .copy {
@@ -390,10 +412,12 @@ footer {
 
 .simbolos {
     margin: 0px;
+   
     padding: 10px;
     text-align: center;
 }
 
 .icono {
+    
     margin: 0px 10px;
 }
