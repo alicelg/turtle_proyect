@@ -320,3 +320,51 @@ textarea {
     font-weight: bold;
     font-size: 15px;
 }
+
+/* ASIDE  */
+
+.final {
+    display: relative;
+    margin-bottom: 40px;
+    margin-left: 350px;
+    margin-top: 20px;
+}
+
+form {
+    display: inline-block;
+    width: 500px;
+    height: auto;
+    font-size: 30px;
+}
+
+.enlace {
+    color: black;
+    font-style: italic;
+}
+
+.enlace:hover {
+    color: green
+}
+
+aside {
+    display: inline-block;
+    margin: 21px 40px;
+}
+
+h6 {
+    font-weight: bold;
+    color: rgb(133, 208, 58);
+    font-size: 20px;
+}
+
+/* .aside {
+    margin-left: 100px;
+} */
+
+.aside p {
+    margin-left: 5px;
+}
+
+.aside img {
+    width: 20px;
+}
