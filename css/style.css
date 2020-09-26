@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: black;
+}
+
+.menu {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 80px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.menu .logo, .menu .elements, .menu .elements li {
+    display: inline-block;
+}
+
+.menu .logo {
+    width: 60px;
+}
+
+a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.menu .elements li {
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+}
+
+.menu .elements li a:not(.submenu-item) {
+    display: block;
+    padding: 20px 0;
+}
+
+a:hover {
+    color: green;
+}
+
+.menu .elements {
+    display: flex;
+}
+
+.menu .elements {
+    position: relative;
+}
+
+.menu .elements li .submenu {
+    position: absolute;
+    top: -200px;
+    background-color: black;
+}
+
+.menu .elements li:hover .submenu {
+    top: 60px;
+    transition: 800ms;
+}
+
+.submenu-item {
+    padding-top: 10px;
+}
+
+.submenu-item:last-child {
+    padding-bottom: 10px;
+}
