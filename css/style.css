@@ -285,3 +285,38 @@ h5 {
     font-size: 25px;
     font-style: italic;
 }
+
+/* FORMULARIO  */
+
+input {
+    width: 500px;
+    height: 50px;
+    border-bottom: green solid 2px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-top: 20px;
+    color: rgb(169, 167, 167);
+}
+
+input:hover {
+    color: rgb(15, 103, 104);
+}
+
+textarea {
+    margin-top: 20px;
+    width: 500px;
+    border: green solid 2px;
+}
+
+.boton {
+    border: none;
+    background-color: green;
+    color: rgb(255, 255, 255);
+}
+
+.boton:hover {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
